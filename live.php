@@ -28,19 +28,19 @@ if ($token != "" && @$_REQUEST["c"] != "") {
     $hs = str_replace("https://tv.media.jio.com/streams_live/" . $_REQUEST["c"] . "/", "", $hs);
 
     // print_r(file_get_contents('https://www.google.com', false, $cx));
-    // print $hs;
+    print $hs;
 }
-function handle($url) {
-    $curl_handle=curl_init();
-    curl_setopt($curl_handle, CURLOPT_URL, $url);
-    curl_setopt($curl_handle, CURLOPT_CONNECTTIMEOUT, 2);
-    curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($curl_handle, CURLOPT_USERAGENT, 'Your application name');
-    $query = curl_exec($curl_handle);
-    curl_close($curl_handle);
+// function handle($url) {
+//     $curl_handle=curl_init();
+//     curl_setopt($curl_handle, CURLOPT_URL, $url);
+//     curl_setopt($curl_handle, CURLOPT_CONNECTTIMEOUT, 2);
+//     curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
+//     curl_setopt($curl_handle, CURLOPT_USERAGENT, 'Your application name');
+//     $query = curl_exec($curl_handle);
+//     curl_close($curl_handle);
 
-    return $query;
-}
+//     return $query;
+// }
 
-die();
+// die();
 ?>
