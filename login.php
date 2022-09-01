@@ -2,7 +2,7 @@
 <?php
 
 // DO NO EDIT ANYTHING TO WORK PORPELY 
-// © @AvishkarPatil  | https://github.com/moaj257
+// © @moaj257  | https://github.com/moaj257
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $u = $_POST['email'];

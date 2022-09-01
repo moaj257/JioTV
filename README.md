@@ -1,7 +1,7 @@
 <h1 align='center'>✯ JɪᴏTV Pʟᴀʏ ✯</h1>
 
 <!-- DO NOT EDIT FILE AND ADD YOU NAME HERE AND PUBLISH -->
-<!-- © 2021 AvishkarPatil -->
+<!-- © 2021 moaj257 -->
 
 <h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br>angry Don't Remove Credits
 Don't Edit This Script 
@@ -72,7 +72,7 @@ https://www.apachefriends.org/index.html
 <h3>🤗 Meet Me : </h3>
 
 • 😪 Check you did all This Perfectly Before Messaging [ Warning ] <br>
-• For any Support About Script contact [@AvishkarPatil](https://telegram.me/AvishkarPatil)  at Telegram <br>
+• For any Support About Script contact [@moaj257](https://telegram.me/moaj257)  at Telegram <br>
 • Or Contact at [proavipatil@gmail.com](mailto:proavipatil@gmail.com)
 
 <br>

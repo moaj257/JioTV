@@ -1,7 +1,7 @@
 <html>
 
 <!-- DO NO EDIT ANYTHING TO WORK PORPELY -->
-<!-- © @AvishkarPatil | https://github.com/moaj257 -->
+<!-- © @moaj257 | https://github.com/moaj257 -->
 
 <head>
 	<meta charset="utf-8">
