@@ -26,7 +26,7 @@ if ($token != "" && @$_REQUEST["c"] != "") {
     $hs = @preg_replace("/" . $_REQUEST["c"] . "_" . $_REQUEST["q"] . "-([^.]+\.)ts/", 'stream.php?ts=' . $_REQUEST["c"] . '/' . $_REQUEST["c"] . '_' . $_REQUEST["q"] . '-\1ts', $hs);
     $hs = str_replace("https://tv.media.jio.com/streams_live/" . $_REQUEST["c"] . "/", "", $hs);
 
-    print_r(file_get_contents('https://www.google.com'));
+    print_r(file_get_contents('https://www.google.com', false, $cx));
     print $hs;
 }
 die();
