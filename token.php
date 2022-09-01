@@ -5,7 +5,7 @@
 // © @AvishkarPatil | https://github.com/moaj257
 
 
-$auth = json_decode(file_get_contents('data/auth.json') , true);
+// $auth = json_decode(file_get_contents('data/auth.json') , true);
 $ssoToken = getenv('ssoToken');
 
 $jctBase = "cutibeau2ic";
