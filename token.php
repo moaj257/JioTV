@@ -2,7 +2,7 @@
 
 
 // DO NO EDIT ANYTHING TO WORK PORPELY 
-// © @AvishkarPatil | https://github.com/avipatilpro
+// © @AvishkarPatil | https://github.com/moaj257
 
 
 $auth = json_decode(file_get_contents('data/auth.json') , true);

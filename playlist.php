@@ -1,7 +1,7 @@
 <?php
 
 // DO NO EDIT ANYTHING TO WORK PORPELY 
-// © @AvishkarPatil  | https://github.com/avipatilpro
+// © @AvishkarPatil  | https://github.com/moaj257
 
 header("Content-Type: application/vnd.apple.mpegurl");
 echo '#EXTM3U' . PHP_EOL;
