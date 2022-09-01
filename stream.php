@@ -6,8 +6,8 @@
 
 require ('token.php');
 
-$crm = $auth['sessionAttributes']['user']['subscriberId'];
-$uniqueId = $auth['sessionAttributes']['user']['unique'];
+$crm = getenv('subscriberId');
+$uniqueId = getenv('uniqueId');
 
 if (@$_REQUEST["key"] != "")
 {

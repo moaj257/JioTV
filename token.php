@@ -6,7 +6,7 @@
 
 
 $auth = json_decode(file_get_contents('data/auth.json') , true);
-$ssoToken = $auth['ssoToken'];
+$ssoToken = getenv('ssoToken');
 
 $jctBase = "cutibeau2ic";
 
