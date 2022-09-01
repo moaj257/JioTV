@@ -15,6 +15,10 @@ header("Accept-Ranges: bytes");
 
 $_SESSION["p"] = $token;
 
+print_r($token);
+print_r($_REQUEST);
+print_r($_SESSION);
+
 if ($token != "" && @$_REQUEST["c"] != "")
 {
 
@@ -38,4 +42,5 @@ if ($token != "" && @$_REQUEST["c"] != "")
 
     print $hs;
 }
+die();
 ?>
