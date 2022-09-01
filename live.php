@@ -18,9 +18,9 @@ $_SESSION["p"] = $token;
 print_r(getenv('ssoToken'));
 echo "<br/><br/><br/>";
 if ($token != "" && @$_REQUEST["c"] != "") {
-    $opts = ["http" => ["method" => "GET", "header" => "User-Agent: plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2"]];
+    $opts = ["http" => ["method" => "GET", "header" => "User-Agent: plaYtv/6.0.9 (Linux; Android 5.1.1) ExoPlayerLib/2.13.2", 'protocol_version'=>'1.1']];
     $cx = stream_context_create($opts);
-    $hs = file_get_contents(("https://jiotv.live.cdn.jio.com/" . urlencode($_REQUEST["c"]) . "/" . urlencode($_REQUEST["c"]) . "_" . urlencode($_REQUEST["q"]) . ".m3u8" . urlencode($token)), false, $cx);
+    $hs = file_get_contents("https://jiotv.live.cdn.jio.com/" . urlencode($_REQUEST["c"]) . "/" . urlencode($_REQUEST["c"]) . "_" . urlencode($_REQUEST["q"]) . ".m3u8" . urlencode($token), false, $cx);
     // $hs = handle("https://jiotv.live.cdn.jio.com/" . $_REQUEST["c"] . "/" . $_REQUEST["c"] . "_" . $_REQUEST["q"] . ".m3u8" . $token);
     print_r($hs); echo "<br/><br/><br/>";
     $hs = @preg_replace("/" . $_REQUEST["c"] . "_" . $_REQUEST["q"] . "-([^.]+\.)key/", 'stream.php?key=' . $_REQUEST["c"] . '/' . $_REQUEST["c"] . '_' . $_REQUEST["q"] . '-\1key', $hs);
